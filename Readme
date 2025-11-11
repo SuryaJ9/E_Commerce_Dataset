@@ -1,18 +1,18 @@
-# 🛒 Sales Data Analysis (SQL Project)
+🛒 Sales Data Analysis (SQL Project)
 
-This project demonstrates end-to-end **Sales Data Analysis** using SQL.  
-It focuses on extracting insights such as **revenue distribution**, **discount impact**, **customer ratings**, and **regional performance** from a transactional dataset.
+This project demonstrates end-to-end Sales Data Analysis using SQL.  
+It focuses on extracting insights such as revenue distribution, discount impact, customer ratings, and regional performance from a transactional dataset.
 
 ---
 
-## 📘 Project Overview
+📘 Project Overview
 
 The dataset represents sales transactions with key attributes like product category, region, payment method, and customer rating.  
 This analysis aims to help business users and data engineers understand sales performance and customer behavior.
 
 ---
 
-## 🧾 Table Schema
+ 🧾 Table Schema
 
 **Table Name:** `sales_data`
 
@@ -34,13 +34,13 @@ This analysis aims to help business users and data engineers understand sales pe
 
 ---
 
-## 🎯 Objectives
+🎯 Objectives
 
-- Analyze **revenue distribution** by product category and region  
-- Calculate **net revenue** after applying discounts  
-- Measure **average customer rating** and **return rates**  
-- Identify **delivery performance** across regions  
-- Estimate **profit margin** (if cost data or assumptions are available)
+- Analyze revenue distribution by product category and region  
+- Calculate net revenue after applying discounts  
+- Measure average customer rating and return rates  
+- Identify delivery performance across regions  
+- Estimate profit margin (if cost data or assumptions are available)
 
 
 
