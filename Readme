@@ -1,1 +1,47 @@
+# 🛒 Sales Data Analysis (SQL Project)
+
+This project demonstrates end-to-end **Sales Data Analysis** using SQL.  
+It focuses on extracting insights such as **revenue distribution**, **discount impact**, **customer ratings**, and **regional performance** from a transactional dataset.
+
+---
+
+## 📘 Project Overview
+
+The dataset represents sales transactions with key attributes like product category, region, payment method, and customer rating.  
+This analysis aims to help business users and data engineers understand sales performance and customer behavior.
+
+---
+
+## 🧾 Table Schema
+
+**Table Name:** `sales_data`
+
+| Column Name | Data Type | Description |
+|--------------|------------|-------------|
+| `order_id` | INT | Unique identifier for each order |
+| `customer_id` | VARCHAR(50) | Unique identifier for each customer |
+| `product_category` | VARCHAR(50) | Category of the product purchased |
+| `product_price` | FLOAT | Price per unit of product |
+| `quantity` | INT | Number of units purchased |
+| `order_date` | DATE | Date when the order was placed |
+| `region` | VARCHAR(50) | Geographic region of the order |
+| `payment_method` | VARCHAR(50) | Method of payment used |
+| `delivery_days` | INT | Number of days taken to deliver the order |
+| `is_returned` | INT | 1 = Returned, 0 = Not returned |
+| `customer_rating` | FLOAT | Rating given by customer (1–5) |
+| `discount_percent` | INT | Discount applied on the order (%) |
+| `revenue` | FLOAT | Total revenue from the order (may be before discount) |
+
+---
+
+## 🎯 Objectives
+
+- Analyze **revenue distribution** by product category and region  
+- Calculate **net revenue** after applying discounts  
+- Measure **average customer rating** and **return rates**  
+- Identify **delivery performance** across regions  
+- Estimate **profit margin** (if cost data or assumptions are available)
+
+
+
 
